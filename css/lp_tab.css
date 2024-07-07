@@ -1,0 +1,187 @@
+@charset "utf-8";
+
+@media screen and (max-width: 885px) {
+
+body {font-size:14px;text-align:center;line-height:1.8;margin: 0; font-family: sans-serif;}
+
+.wrapper {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	min-width: 320px;
+}
+.pc {
+	display: none;
+}
+.sp {
+	display: inline;
+}
+
+/* Merit（7つのメリット）
+--------------------------------------------------------------------*/
+.merit_detail {
+    padding: 30px 0;
+}
+.merit_detail .text{
+	float:none;
+	padding:0;
+	padding-bottom:30px;
+	text-align:center;
+	width:95%;
+	margin:0 auto;
+	line-height:1.3em;
+	padding-bottom:250px;
+}
+.merit_detail h3{
+	line-height: middle;
+	font-size:150%;
+	font-weight: 700;
+	line-height:2em;
+}
+.merit_detail h3 img{
+	margin-right:0;
+}
+.merit_detail h4{
+	padding-top:10px;
+}
+.merit1{
+	background: url(../img/merit_detail_img1_sp.png)no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+.merit2{
+	background: url(../img/merit_detail_img2_sp.png)no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+.merit3{
+	background: url(../img/merit_detail_img3_sp.png)no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+.merit4{
+	background: url(../img/merit_detail_img4_sp.png)no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+.merit5{
+	background: url(../img/merit_detail_img5_sp.png)no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+.merit6{
+	background: url(../img/merit_detail_img6_sp.png)no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+.merit7{
+	background: url(../img/merit_detail_img7_sp.png)no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+
+/* Worry（こんなお悩みはありませんか？）
+--------------------------------------------------------------------*/
+.worry{
+	height:700px;
+	background: none;
+}
+
+
+/* Rrecommend（そんなあなたにオススメ「ヨギー・インスティ〜）
+--------------------------------------------------------------------*/
+.recommend_detail .text .recommend_worry{
+	padding-top:40px;
+
+}
+.recommend_detail .text{
+	float:none;
+	padding:0;
+	padding-bottom:30px;
+	text-align:center;
+	width:95%;
+	margin:0 auto;
+}
+.recommend_detail .recommend_detail_img1{
+	background:url(../img/recommend_bg_detail1_sp.jpg)no-repeat;
+	background-size:cover;
+	float:none;
+	width:100%;
+	height:200px;
+}
+.recommend_detail .recommend_detail_img2{
+	background:url(../img/recommend_bg_detail2_sp.jpg)no-repeat;
+	background-size:cover;
+	float:none;
+	width:100%;
+	height:200px;
+}
+.recommend_detail .recommend_detail_img3{
+	background:url(../img/recommend_bg_detail3_sp.jpg)no-repeat;
+	background-size:cover;
+	float:none;
+	width:100%;
+	height:200px;
+}
+
+
+/* place（アクセス情報）
+--------------------------------------------------------------------*/
+
+.place .inner .text{
+	width:100%;
+	float:none;
+	padding:40px 0;
+	text-align:left;
+}
+.place .inner .text2{
+	width:100%;
+	float:none;
+	padding:40px 0;
+	text-align:left;
+}
+.place .inner .text h2{
+	text-align:center;
+}
+.place .inner .map{
+	width:100%;
+	float:none;
+}
+.place .inner .map2{
+	width:100%;
+	float:none;
+}
+
+/* interview（参加者の声）
+--------------------------------------------------------------------*/
+.interview .inner .comment1 .text{
+	width:100%;
+	float:none;
+	text-align:left;
+}
+.interview .inner .comment1 img{
+	position:relative;
+	top:auto;
+	left:auto;
+}
+.interview .inner .comment2 .text{
+	width:100%;
+	float:none;
+	text-align:left;
+}
+.interview .inner .comment2 img{
+	position:relative;
+	top:auto;
+	right:auto;
+}
+.interview .inner .comment1 .text h3{
+	margin-top:30px;
+}
+.interview .inner .comment2 .text h3{
+	margin-top:30px;
+}
+
+
+
+}
