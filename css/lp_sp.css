@@ -2,403 +2,445 @@
 
 @media screen and (max-width: 640px) {
 
-body {font-size:14px;text-align:center;line-height:1.8;margin: 0; font-family: sans-serif;}
+	body {font-size:14px;text-align:center;line-height:1.8;margin: 0; font-family: sans-serif;}
 
-.wrapper {
-	overflow: hidden;
-	position: relative;
-	width: 100%;
-	min-width: 320px;
-}
-.pc {
-	display: none;
-}
-.sp {
-	display: inline;
-}
+	.wrapper {
+		overflow: hidden;
+		position: relative;
+		width: 100%;
+		min-width: 320px;
+	}
+	.pc {
+		display: none;
+	}
+	.sp {
+		display: inline;
+	}
 
-/*nav（固定ナビゲーション）
---------------------------------------------------------------------*/
-.btn {
-    background:transparent url(../img/nav_menu.png) no-repeat 0 0;
-    display: block;
-    width:58px;
-    height: 65px;
-    position: fixed;
-    bottom:0;
-    right:0;
-    cursor: pointer;
-    z-index: 200;
-}
-.peke {
-    background-position: -60px 0;
-}
-.drawr {
-	height: 800px;
-    display: none;
-    background-color:rgba(255,255,255,1);
-    position: fixed;
-    top: 0px;
-    right:0;
-    width:260px;
-    padding:60px 20px;
-    z-index: 100;
-    overflow-y: scroll;
-}
-#menu li {
-    width:260px;
-    text-align: left;
-    font-weight: bold;
-    border-bottom: 2px solid #333;
-    padding-top: 20px;
-    line-height: 1.5em;
-    overflow-y: scroll;
-}
-#menu li a {
-    color:#333;
-    display: block;
-    padding: 15px;
-    overflow-y: scroll;
-}
-
-
+	/*nav（固定ナビゲーション）
+	--------------------------------------------------------------------*/
+	.btn {
+		background:transparent url(../img/nav_menu.png) no-repeat 0 0;
+		display: block;
+		width:58px;
+		height: 65px;
+		position: fixed;
+		bottom:0;
+		right:0;
+		cursor: pointer;
+		z-index: 200;
+	}
+	.peke {
+		background-position: -60px 0;
+	}
+	.drawr {
+		height: 800px;
+		display: none;
+		background-color:rgba(255,255,255,1);
+		position: fixed;
+		top: 0px;
+		right:0;
+		width:260px;
+		padding:60px 20px;
+		z-index: 100;
+		overflow-y: scroll;
+	}
+	#menu li {
+		width:260px;
+		text-align: left;
+		font-weight: bold;
+		border-bottom: 2px solid #333;
+		padding-top: 20px;
+		line-height: 1.5em;
+		overflow-y: scroll;
+	}
+	#menu li a {
+		color:#333;
+		display: block;
+		padding: 15px;
+		overflow-y: scroll;
+	}
 
 
-/* lead_text
---------------------------------------------------------------------*/
-.lead_text {
-    padding: 20px;
-    font-size:85%;
-}
-
-/* contact（クーポン、お問い合わせ）
---------------------------------------------------------------------*/
-.contact .inner .coupon div.number{
-	width:90%;
-}
-.btn_contact .contact_mail a{
-	float:none;
-	width:100%;
-	height:100px;
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
-	border-radius: 0;
-}
-.btn_contact .contact_session a{
-	float:none;
-	width:100%;
-	height:100px;
-	-webkit-border-radius: 0 0 15px 15px / 0 0 15px 15px;
-	-moz-border-radius: 0 0 15px 15px / 0 0 15px 15px;
-	border-radius: 0 0 15px 15px / 0 0 15px 15px;
-}
-.btn_contact .btn_text{
-	padding-top:20px;
-}
-
-/* Worry（こんなお悩みはありませんか？）
---------------------------------------------------------------------*/
-.worry{
-	height:350px;
-	background: none;
-}
+	h2 {
+		font-size: 1.4rem;
+	}
 
 
-/* Rrecommend（そんなあなたにオススメ「ヨギー・インスティ〜）
---------------------------------------------------------------------*/
-.recommend_detail .text .recommend_worry{
-	padding-top:40px;
+	.recommend_detail {
+		height: 215px;
+	}
+	/* lead_text
+	--------------------------------------------------------------------*/
+	.lead_text {
+		padding: 20px;
+		font-size:85%;
+	}
 
-}
-.recommend_detail .text{
-	float:none;
-	padding:0;
-	padding-bottom:30px;
-	text-align:center;
-	width:95%;
-	margin:0 auto;
-}
-.recommend_detail .text h3{
-	font-size:110%;
-}
-.recommend_detail .recommend_detail_img1{
-	background:url(../img/recommend_bg_detail1_sp.jpg)no-repeat;
-	background-size:cover;
-	float:none;
-	width:100%;
-	height:200px;
-}
-.recommend_detail .recommend_detail_img2{
-	background:url(../img/recommend_bg_detail2_sp.jpg)no-repeat;
-	background-size:cover;
-	float:none;
-	width:100%;
-	height:200px;
-}
-.recommend_detail .recommend_detail_img3{
-	background:url(../img/recommend_bg_detail3_sp.jpg)no-repeat;
-	background-size:cover;
-	float:none;
-	width:100%;
-	height:200px;
-}
+	/* contact（クーポン、お問い合わせ）
+	--------------------------------------------------------------------*/
+	.contact .inner .coupon div.number{
+		width:90%;
+	}
+	.btn_contact .contact_mail a{
+		float:none;
+		width:100%;
+		height:100px;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+	}
+	.btn_contact .contact_session a{
+		float:none;
+		width:100%;
+		height:100px;
+		-webkit-border-radius: 0 0 15px 15px / 0 0 15px 15px;
+		-moz-border-radius: 0 0 15px 15px / 0 0 15px 15px;
+		border-radius: 0 0 15px 15px / 0 0 15px 15px;
+	}
+	.btn_contact .btn_text{
+		padding-top:20px;
+	}
 
-
-/* Merit（7つのメリット）
---------------------------------------------------------------------*/
-.merit_detail {
-    padding: 30px 0;
-}
-.merit_detail .text{
-	float:none;
-	padding:0;
-	padding-bottom:30px;
-	text-align:center;
-	width:95%;
-	margin:0 auto;
-	line-height:1.3em;
-	padding-bottom:120px;
-}
-.merit_detail h3{
-	line-height: middle;
-	font-size:150%;
-	font-weight: 700;
-	line-height:2em;
-}
-.merit_detail h3 img{
-	margin-right:0;
-}
-.merit_detail h4{
-	padding-top:10px;
-}
-.merit1{
-	background: url(../img/merit_detail_img1_sp.png)no-repeat;
-    background-position: bottom;
-    background-size: contain;
-}
-.merit2{
-	background: url(../img/merit_detail_img2_sp.png)no-repeat;
-    background-position: bottom;
-    background-size: contain;
-}
-.merit3{
-	background: url(../img/merit_detail_img3_sp.png)no-repeat;
-    background-position: bottom;
-    background-size: contain;
-}
-.merit4{
-	background: url(../img/merit_detail_img4_sp.png)no-repeat;
-    background-position: bottom;
-    background-size: contain;
-}
-.merit5{
-	background: url(../img/merit_detail_img5_sp.png)no-repeat;
-    background-position: bottom;
-    background-size: contain;
-}
-.merit6{
-	background: url(../img/merit_detail_img6_sp.png)no-repeat;
-    background-position: bottom;
-    background-size: contain;
-}
-.merit7{
-	background: url(../img/merit_detail_img7_sp.png)no-repeat;
-    background-position: bottom;
-    background-size: contain;
-}
+	/* Worry（こんなお悩みはありませんか？）
+	--------------------------------------------------------------------*/
+	.worry{
+		height:350px;
+		background: none;
+	}
 
 
-/* place（アクセス情報）
---------------------------------------------------------------------*/
+	/* Rrecommend（そんなあなたにオススメ「ヨギー・インスティ〜）
+	--------------------------------------------------------------------*/
+	.recommend_detail .text .recommend_worry{
+		padding-top:40px;
 
-.place .inner .text, .place .inner .text2{
-	width:100%;
-	float:none;
-	padding:40px 0;
-	text-align:left;
-}
-.place .inner .text h2{
-	text-align:center;
-}
-.place .inner .map, .place .inner .map2{
-	width:100%;
-	float:none;
-}
-
-
-/* why（1年もかかるのはなぜ？）
---------------------------------------------------------------------*/
-.why_answer p.why_point{
-	width:220px;
-}
-
-/* interview（参加者の声）
---------------------------------------------------------------------*/
-.interview .inner .comment1 .text{
-	width:100%;
-	float:none;
-	text-align:left;
-}
-.interview .inner .comment1 img{
-	position:relative;
-	top:auto;
-	left:auto;
-}
-.interview .inner .comment2 .text{
-	width:100%;
-	float:none;
-	text-align:left;
-}
-.interview .inner .comment2 img{
-	position:relative;
-	top:auto;
-	right:auto;
-}
-.interview .inner .comment1 .text h3{
-	margin-top:30px;
-}
-.interview .inner .comment2 .text h3{
-	margin-top:30px;
-}
-
-/* about（ヨギー・インスティテュートとは）
---------------------------------------------------------------------*/
-.about .inner h2{
-	font-size:120%;
-	font-weight:bold;
-}
-.about .inner .about_detail{
-	width:80%;
-	padding:40px 30px;
-	padding-bottom:120px;
-	background: #ffffff;
-	margin: 0 auto;
-	height:150px;
-	margin-bottom: 20px;
-}
-.about .inner .about_detail:nth-child(even){
-	float: none;
-}
-.about .inner .about_detail:nth-child(odd){
-	float:none;
-}
-.about .inner .about1 {
-    background-image: url(../img/about_detail_img1.png);
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: contain;
-}
-.about .inner .about2{
-	background-image: url(../img/about_detail_img2.png);
-	background-repeat:no-repeat;
-    background-position: bottom right;
-    background-size: contain;
-}
-.about .inner .about3{
-	background-image: url(../img/about_detail_img3.png);
-	background-repeat:no-repeat;
-    background-position: bottom right;
-    background-size: contain;
-}
-.about .inner .about4{
-	background-image: url(../img/about_detail_img4.png);
-	background-repeat:no-repeat;
-    background-position: bottom right;
-    background-size: contain;
-}
-
-/* instructor（更新紹介）
---------------------------------------------------------------------*/
-
-.instructor .inner{
-	width:85%;
-	max-width:960px;
-	margin:0 auto;
-	background:#ffffff;
-	border-radius: 15px;
-	padding:20px;
-	overflow:hidden;
-}
-.instructor .inner .instructor_detail{
-	clear:both;
-	overflow:hidden;
-	margin-bottom:30px;
-}
-.instructor .inner h2{
-	text-align:center;
-	font-weight:bold;
-	font-size:120%;
-}
-.instructor .inner .text{
-	text-align:left;
-	width:100%;
-	float:none;
-}
-.instructor .inner .img{
-	width:100%;
-	float:none;
-}
-.instructor .inner .text p.name{
-	font-weight:bold;
-}
-.instructor .inner .text p.position{
-	margin-bottom:20px;
-}
-
-/* Voice（卒業生の声）
---------------------------------------------------------------------*/
-.voice .inner .voice_detail{
-	margin:0 auto;
-	background:none;
-	box-shadow:none;
-	overflow:hidden;
-	padding:0 20px;
-	margin-bottom:30px;
-}
-.voice .inner .voice1 .text{
-	float:none;
-	width:100%;
-	margin:0 auto;
-}
-
-.voice .inner .voice1 img{
-	float:none;
-	width:100%;
-}
-
-.voice .inner .voice2 .text{
-	float:none;
-	padding:30px 0;
-	text-align: left;
-	width:100%
-}
-.voice .inner .voice2 img{
-	float:none;
-	width:100%;
-}
-
-/* Voice（卒業生の声）
---------------------------------------------------------------------*/
-
-.qa .inner dt{
-	padding:20px;
-	font-weight:bold;
-	background: #efefef;
-	text-align: left;
-}
-.qa .inner dd{
-	padding:20px;
-	text-align: left;
-	background:#ffffff;
-}
-
-/* messege（コンシェルジュからのメッセージ）
---------------------------------------------------------------------*/
-.messege{
-	padding-bottom:100px;
-
-}
+	}
+	.recommend_detail .text{
+		float:none;
+		padding:0;
+		padding-bottom:30px;
+		text-align:center;
+		width:95%;
+		margin:0 auto;
+	}
+	.recommend_detail .text h3{
+		font-size:110%;
+	}
+	.recommend_detail .recommend_detail_img1{
+		background:url(../img/recommend_bg_detail1_sp.jpg)no-repeat;
+		background-size:cover;
+		float:none;
+		width:100%;
+		height:200px;
+	}
+	.recommend_detail .recommend_detail_img2{
+		background:url(../img/recommend_bg_detail2_sp.jpg)no-repeat;
+		background-size:cover;
+		float:none;
+		width:100%;
+		height:200px;
+	}
+	.recommend_detail .recommend_detail_img3{
+		background:url(../img/recommend_bg_detail3_sp.jpg)no-repeat;
+		background-size:cover;
+		float:none;
+		width:100%;
+		height:200px;
+	}
 
 
+	/* Merit（7つのメリット）
+	--------------------------------------------------------------------*/
+	.merit_detail {
+		padding: 15px 0;
+	}
+	.merit_detail .text{
+		float:none;
+		padding:0;
+		padding-bottom:30px;
+		text-align:center;
+		width:95%;
+		margin:0 auto;
+		line-height:1.3em;
+		padding-bottom:120px;
+		height: 95px;
+	}
+	.merit_detail h3{
+		line-height: middle;
+		font-size:150%;
+		font-weight: 700;
+		line-height:2em;
+	}
+	.merit_detail h3 img{
+		margin-right:0;
+	}
+	.merit_detail h4{
+		padding-top:10px;
+	}
+	.merit1{
+		background: url(../img/merit_detail_img1_sp.png)no-repeat;
+		background-position: bottom;
+		background-size: contain;
+	}
+	.merit2{
+		background: url(../img/merit_detail_img2_sp.png)no-repeat;
+		background-position: bottom;
+		background-size: contain;
+	}
+	.merit3{
+		background: url(../img/merit_detail_img3_sp.png)no-repeat;
+		background-position: bottom;
+		background-size: contain;
+	}
+	.merit4{
+		background: url(../img/merit_detail_img4_sp.png)no-repeat;
+		background-position: bottom;
+		background-size: contain;
+	}
+	.merit5{
+		background: url(../img/merit_detail_img5_sp.png)no-repeat;
+		background-position: bottom;
+		background-size: contain;
+	}
+	.merit6{
+		background: url(../img/merit_detail_img6_sp.png)no-repeat;
+		background-position: bottom;
+		background-size: contain;
+	}
+	.merit7{
+		background: url(../img/merit_detail_img7_sp.png)no-repeat;
+		background-position: bottom;
+		background-size: contain;
+	}
 
+	/* step
+	--------------------------------------------------------------------*/
+	/* .step_img .sp img {
+		
+	} */
+
+
+	/* place（アクセス情報）
+	--------------------------------------------------------------------*/
+
+	.place h2 {
+		margin-bottom: 0;
+	}
+
+	.place .inner .text, .place .inner .text2{
+		width:100%;
+		float:none;
+		padding:20px 0;
+		text-align:center;
+	}
+	.inner .text h2{
+		text-align:center;
+		font-size: 1.4rem;
+	}
+	.place .inner .map, .place .inner .map2{
+		width:100%;
+		float:none;
+	}
+
+
+	/* why（1年もかかるのはなぜ？）
+	--------------------------------------------------------------------*/
+	.why_answer {
+		margin-bottom: 0;
+	}
+	.why_answer h2{
+		font-size: 120%;
+	}
+	.why_answer p.why_point{
+		width:220px;
+		font-size: 1rem;
+		margin: 15px auto;
+	}
+
+	/* interview（参加者の声）
+	--------------------------------------------------------------------*/
+	.interview {
+		background: #f5f4f0;
+		width: 100%;
+		padding: 25px 0;
+	}
+	.interview .inner .comment1 .text{
+		width:100%;
+		float:none;
+		text-align:left;
+	}
+	.interview .inner .comment1 img{
+		position:relative;
+		top:auto;
+		left:auto;
+	}
+	.interview .inner .comment2 .text{
+		width:100%;
+		float:none;
+		text-align:left;
+	}
+	.interview .inner .comment2 img{
+		position:relative;
+		top:auto;
+		right:auto;
+	}
+	.interview .inner .comment1 .text h3{
+		margin-top:30px;
+	}
+	.interview .inner .comment2 .text h3{
+		margin-top:30px;
+	}
+
+	/* about（ヨギー・インスティテュートとは）
+	--------------------------------------------------------------------*/
+	.about .inner h2{
+		font-size: 1.4rem;
+		font-weight:bold;
+	}
+	.about .inner .about_detail{
+		width:90%;
+		padding:40px 20px;
+		background: #ffffff;
+		height:85px;
+		margin-bottom: 20px;
+	}
+	.about .inner .about_detail p{
+		font-size: 0.9rem
+	}
+	.about .inner .about_detail h3{
+		margin-bottom: 15px;
+	}
+	.about .inner .about_detail:nth-child(even){
+		float: none;
+	}
+	.about .inner .about_detail:nth-child(odd){
+		float:none;
+	}
+	.about .inner .about1 {
+		background-image: url(../img/about_detail_img1.png);
+		background-repeat: no-repeat;
+		background-position: bottom right;
+		background-size: contain;
+	}
+	.about .inner .about2{
+		background-image: url(../img/about_detail_img2.png);
+		background-repeat:no-repeat;
+		background-position: bottom right;
+		background-size: contain;
+	}
+	.about .inner .about3{
+		background-image: url(../img/about_detail_img3.png);
+		background-repeat:no-repeat;
+		background-position: bottom right;
+		background-size: contain;
+	}
+	.about .inner .about4{
+		background-image: url(../img/about_detail_img4.png);
+		background-repeat:no-repeat;
+		background-position: bottom right;
+		background-size: contain;
+	}
+
+	/* instructor（更新紹介）
+	--------------------------------------------------------------------*/
+
+	.instructor .inner{
+		width:85%;
+		max-width:960px;
+		margin:0 auto;
+		background:#ffffff;
+		border-radius: 15px;
+		padding:20px;
+		overflow:hidden;
+	}
+	.instructor .inner .instructor_detail{
+		clear:both;
+		overflow:hidden;
+		margin-bottom:30px;
+	}
+	.instructor .inner h2{
+		text-align:center;
+		font-weight:bold;
+		font-size: 1.4rem;
+	}
+	.instructor .inner .text{
+		text-align:left;
+		width:100%;
+		float:none;
+	}
+	.instructor .inner .img{
+		width:100%;
+		float:none;
+		margin-top: 15px;
+	}
+	.instructor .inner .text p.name{
+		font-weight:bold;
+	}
+	.instructor .inner .text p.position{
+		margin-bottom:20px;
+	}
+
+	.instructor .inner .instructor_session p.session_date {
+		text-align: left;
+	}
+	.instructor .inner .instructor_session p{
+		text-align: left;
+	}
+
+	/* Voice（卒業生の声）
+	--------------------------------------------------------------------*/
+	.voice .inner .voice_detail{
+		margin:0 auto;
+		background:none;
+		box-shadow:none;
+		overflow:hidden;
+		padding:0 20px;
+		margin-bottom:30px;
+	}
+	.voice .inner .voice1 .text{
+		float:none;
+		width:100%;
+		margin:0 auto;
+	}
+
+	.voice .inner .voice1 img{
+		float:none;
+		width:100%;
+	}
+
+	.voice .inner .voice2 .text{
+		float:none;
+		padding:30px 0;
+		text-align: left;
+		width:100%
+	}
+	.voice .inner .voice2 img{
+		float:none;
+		width:100%;
+	}
+
+	/* Voice（卒業生の声）
+	--------------------------------------------------------------------*/
+
+	.qa .inner dt{
+		padding:20px;
+		font-weight:bold;
+		background: #efefef;
+		text-align: left;
+	}
+	.qa .inner dd{
+		padding:20px;
+		text-align: left;
+		background:#ffffff;
+	}
+
+	/* messege（コンシェルジュからのメッセージ）
+	--------------------------------------------------------------------*/
+	.messege{
+		padding-bottom:20px;
+	}
+	.messege h2{
+		font-size: 109%;
+	}
 }
